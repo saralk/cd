@@ -1,0 +1,2612 @@
+[
+  {
+    "": "",
+    "District": "AK-AL",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AL-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AL-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AL-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AL-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AL-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AL-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AL-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AR-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AR-02",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "AR-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AR-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AZ-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AZ-02",
+    "Category": "Lean Dem",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "AZ-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AZ-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AZ-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AZ-06",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "AZ-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AZ-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "AZ-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-04",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "CA-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-10",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "CA-11",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-12",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-13",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-14",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-15",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-16",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-17",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-18",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-19",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-20",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-21",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "CA-22",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-23",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-24",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-25",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "CA-26",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-27",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-28",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-29",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-30",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-31",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-32",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-33",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-34",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-35",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-36",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-37",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-38",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-39",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "CA-40",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-41",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-42",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-43",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-44",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-45",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "CA-46",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-47",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-48",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "CA-49",
+    "Category": "Lean Dem",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "CA-50",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "CA-51",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-52",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CA-53",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CO-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CO-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CO-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CO-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CO-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CO-06",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "CO-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CT-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CT-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CT-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CT-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "CT-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "DE-AL",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-10",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-11",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-12",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-13",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-14",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-15",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "FL-16",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "FL-17",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-18",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "FL-19",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-20",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-21",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-22",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-23",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-24",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "FL-25",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "FL-26",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "FL-27",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-06",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "GA-07",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "GA-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-10",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-11",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-12",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-13",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "GA-14",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "HI-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "HI-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IA-01",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "IA-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IA-03",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "IA-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "ID-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "ID-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-06",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "IL-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-10",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-11",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-12",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "IL-13",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "IL-14",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "IL-15",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-16",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-17",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IL-18",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IN-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IN-02",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "IN-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IN-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IN-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IN-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IN-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IN-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "IN-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "KS-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "KS-02",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "KS-03",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "KS-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "KY-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "KY-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "KY-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "KY-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "KY-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "KY-06",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "LA-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "LA-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "LA-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "LA-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "LA-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "LA-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MA-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MA-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MA-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MA-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MA-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MA-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MA-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MA-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MA-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MD-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MD-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MD-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MD-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MD-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MD-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MD-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MD-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "ME-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "ME-02",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "MI-01",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "MI-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MI-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MI-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MI-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MI-06",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "MI-07",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "MI-08",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "MI-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MI-10",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MI-11",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "MI-12",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MI-13",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MI-14",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MN-01",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "MN-02",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "MN-03",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "MN-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MN-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MN-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MN-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MN-08",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "MO-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MO-02",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "MO-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MO-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MO-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MO-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MO-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MO-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MS-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MS-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MS-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MS-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "MT-AL",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-02",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "NC-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-08",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "NC-09",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "NC-10",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-11",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-12",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NC-13",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "ND-AL",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NE-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NE-02",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "NE-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NH-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NH-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NJ-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NJ-02",
+    "Category": "Likely Dem",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "NJ-03",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "NJ-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NJ-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NJ-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NJ-07",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "NJ-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NJ-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NJ-10",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NJ-11",
+    "Category": "Lean Dem",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "NJ-12",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NM-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NM-02",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "NM-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NV-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NV-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NV-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NV-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-01",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "NY-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-10",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-11",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "NY-12",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-13",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-14",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-15",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-16",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-17",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-18",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-19",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "NY-20",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-21",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-22",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "NY-23",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-24",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "NY-25",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-26",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "NY-27",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-01",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "OH-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-10",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "OH-11",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-12",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "OH-13",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OH-14",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "OH-15",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "OH-16",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OK-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OK-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OK-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OK-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OK-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OR-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OR-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OR-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OR-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "OR-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-01",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "PA-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-04",
+    "Category": "Likely Dem",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "PA-05",
+    "Category": "Likely Dem",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "PA-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-10",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "PA-11",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-12",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-13",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-14",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "PA-15",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "PA-16",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "PA-17",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "PA-18",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "RI-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "RI-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "SC-01",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "SC-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "SC-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "SC-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "SC-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "SC-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "SC-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "SD-AL",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TN-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TN-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TN-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TN-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TN-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TN-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TN-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TN-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TN-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-07",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "TX-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-10",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-11",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-12",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-13",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-14",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-15",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-16",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-17",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-18",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-19",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-20",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-21",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "TX-22",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-23",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "TX-24",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-25",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-26",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-27",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-28",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-29",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-30",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-31",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-32",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "TX-33",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-34",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-35",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "TX-36",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "UT-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "UT-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "UT-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "UT-04",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "VA-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "VA-02",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "VA-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "VA-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "VA-05",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "VA-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "VA-07",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "VA-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "VA-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "VA-10",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "VA-11",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "VT-AL",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WA-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WA-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WA-03",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "WA-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WA-05",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "WA-06",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WA-07",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WA-08",
+    "Category": "Toss Up",
+    "Priority Number": 3
+  },
+  {
+    "": "",
+    "District": "WA-09",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WA-10",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WI-01",
+    "Category": "Lean R",
+    "Priority Number": 2
+  },
+  {
+    "": "",
+    "District": "WI-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WI-03",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WI-04",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WI-05",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WI-06",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "WI-07",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "WI-08",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WV-01",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WV-02",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  },
+  {
+    "": "",
+    "District": "WV-03",
+    "Category": "Likely R",
+    "Priority Number": 1
+  },
+  {
+    "": "",
+    "District": "WY-AL",
+    "Category": "Solid Seat",
+    "Priority Number": 0
+  }
+]
