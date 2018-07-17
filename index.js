@@ -21,7 +21,6 @@ const priorities = JSON.parse(fs.readFileSync('data/data.json')).reduce((map, ob
 async function getPriorityForCoordinates(lat, lon) {
     let url = 'https://www.googleapis.com/civicinfo/v2/representatives?key=' + API_KEY + '&address=' + lat + ',' + lon + '&includeOffices=false';
     return rp(url).then((response) => {
-        console.log(response);
         return new Promise((resolve, reject) => {
             let r = JSON.parse(response);
             Object.keys(r.divisions).forEach((key) => {
