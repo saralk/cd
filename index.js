@@ -18,16 +18,23 @@ const priorities = JSON.parse(fs.readFileSync('data/data.json')).reduce((map, ob
     return map;
 }, {});
 
+function addLeadingZero(num) {
+  num = num.toString();
+  if (num.length === 1) {
+    return '0' + num; 
+  }
+  return num;
+}
+
 async function getPriorityForCoordinates(lat, lon) {
     let url = 'https://www.googleapis.com/civicinfo/v2/representatives?key=' + API_KEY + '&address=' + lat + ',' + lon + '&includeOffices=false';
     return rp(url).then((response) => {
-        console.log(response);
         return new Promise((resolve, reject) => {
             let r = JSON.parse(response);
             Object.keys(r.divisions).forEach((key) => {
-                let m = key.match(/cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{2})/);
+                let m = key.match(/cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{1,2})/);
                 if (m) {
-                    let p = priorities[m[1] + '-' + m[2]];
+                    let p = priorities[m[1] + '-' + addLeadingZero(m[2])];
                     p['district_name'] = r.divisions[key];
                     resolve(p);
                 }

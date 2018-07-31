@@ -4,23 +4,75 @@
         <style type='text/css'>
             h1, h2, h3, h4 {
                 font-family: 'Roboto Slab', serif;
+                text-align: center;
+              
+            }
+          
+            .lead {
+                text-align: center;
+                font-size: 18pt;
             }
 
             body {
                 font-family: 'Lato', sans-serif;
             }
+          
+                        input {
+                  width: 100%;
+                  font-size: 18pt;
+              }
+          
+                        #main {
+                  width: 50%;
+                  margin-left: 25%;
+              }
+          
+                        .input-section {
+                  margin-bottom: 15px;
+                          font-size: 12pt;
+              }
+          
+                            .result {
+                  display: none;
+                  border: 1px solid black;
+                  padding: 5px;
+                  text-align: center;
+              }
         </style>
     </head>
     <body>
-        <h1>Where should I vote?</h1>
 
         <form id='main'>
             <h1>College Voters Will Save America From Trump</h1>
-            <label for='homeinput'>Home address</label>
-            <input type='text' id='homeinput' />
+            <p class='lead'>College students can vote at home or at school. Which one is best for Democrats?</p>
+              <div class='input-section'>
+                  <label for='homeinput'>Home Address:</label>
+                  <input type='text' id='homeinput' />
+              </div>
 
-            <label for='uniinput'>uni address</label>
-            <input type='text' id='uniinput' />
+              <div class='input-section'>
+                  <label for='uniinput'>School Address:</label>
+                  <input type='text' id='uniinput' />
+              </div>
+          
+              <div class='result' id='vote-home'>
+                  <h3>Vote at home!</h3>
+                  <p>
+                      Your parent's district is more competitive, so you're more likely to help Democrats there. They need you back home. Vote by mail.
+                  </p>
+              </div>
+              <div class='result' id='vote-school'>
+                  <h3>Vote at school!</h3>
+                  <p>
+                      Your school's district is more competitive, so you're more likely to help Democrats where. Welcome to your new home. Register and vote at school.
+                  </p>
+              </div>
+              <div class='result' id='vote-tossup'>
+                  <h3>Tied!</h3>
+                  <p>
+                      We think both districts are similarly competitive, so pick one and vote!
+                  </p>
+              </div>
         </form>
 
         <div id='results'></div>
@@ -49,11 +101,10 @@
                     var home_coords = home_place[0].geometry.location;
                     var uni_coords = uni_place[0].geometry.location;
 
-                    results_el.innerHTML = 'loading...';
                     getPriorities(home_coords, uni_coords, function(response) {
                         var priorities = JSON.parse(response);
                         
-                        results_el.innerHTML = renderResults(priorities);
+                        renderResults(priorities);
                     });
                 }
             }
@@ -67,22 +118,26 @@
                         cb(xmlHttp.responseText);
                 }
                 xmlHttp.open("GET", '/priorities?home='+encodeURIComponent(home_coords)+'&uni='+encodeURIComponent(uni_coords), true);
-                xmlHttp.send(null);
+                xmlHttp.send();
             }
 
-            function renderResults(results) {
-                var html = "<h2>Home</h2>";
-                html += generateHtml(results.home);
-                html += "<h2>Uni</h2>";
-                html += generateHtml(results.uni);
-                return html;
-            }
-
-            function generateHtml(result) {
-                var html = '<strong>'+result.district_name.name+'</strong><br />';
-                html += result.category + ' ' + result.priority;
-                return html;
-            }
+              function renderResults(results) {
+                  if (results.home.priority > results.uni.priority) {
+                      document.getElementById('vote-school').style.display = 'none';
+                      document.getElementById('vote-home').style.display = 'block';
+                      document.getElementById('vote-tossup').style.display = 'none';
+                  }
+                  if (results.uni.priority > results.home.priority) {
+                      document.getElementById('vote-home').style.display = 'none';
+                      document.getElementById('vote-school').style.display = 'block';
+                      document.getElementById('vote-tossup').style.display = 'none';
+                  }
+                  if (results.uni.priority == results.home.priority) {
+                      document.getElementById('vote-home').style.display = 'none';
+                      document.getElementById('vote-school').style.display = 'none';
+                      document.getElementById('vote-tossup').style.display = 'block';
+                  }
+              }
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyD9F6qk9NbkzES-gCLs0y1bIicsO3eI9bU&callback=initMap" async defer></script>
     </body>
