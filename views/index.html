@@ -2,121 +2,10 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <style type='text/css'>
-            .container-fluid {
-                height: 100%;
-            }
-
-            #main {
-                padding-top: 50px;
-            }
-            
-            .main-row {
-                height: 100%;
-            }
-
-            h1, h2, h3, h4, h5 {
-                font-family: 'Work Sans', sans-serif;
-                font-weight: 700;
-            }
-
-            h1 {
-                font-size: 44px;
-                color: #0084ff;
-            }
-
-            h2 {
-                font-size: 24px; 
-            }
-
-            h5 {
-                font-size: 20px;
-                color: #ff5033;
-                margin-top: 16px;
-            }
-
-            .red {
-                color: #ff5033;
-            }
-
-            .blue {
-                color: #0884ff;
-            }
-          
-            .lead {
-                text-align: center;
-                font-size: 18pt;
-            }
-
-            body {
-                color: #383838;
-                font-family: 'Work Sans', sans-serif;
-                font-size: 14px;
-                font-weight: normal;
-                font-style: normal;
-                font-stretch: normal;
-                line-height: 1.43;
-                letter-spacing: normal;
-            }
-          
-            input {
-                width: 100%;
-                font-size: 18pt;
-            }
-          
-            .input-section {
-                margin-bottom: 15px;
-                font-size: 12pt;
-            }
-          
-            .result {
-                display: none;
-            }
-
-            .side-box {
-                background-color: #eef7ff;
-            }
-
-            .address-input {
-                margin-top: 20px;
-            }
-            
-            .address-input-box {
-              height: 44px;
-              border-radius: 3px;
-              border: solid 1px #ddd;
-              font-size: 14px;
-              font-weight: normal;
-              font-style: normal;
-              font-stretch: normal;
-              line-height: 1.43;
-              letter-spacing: normal;
-              color: #383838; 
-            }
-            .district-box {
-                border-radius: 3px;
-                box-shadow: 0 6px 16px 0 rgba(12, 0, 51, 0.1);
-                background-color: #ffffff;
-                border: solid 1px #ffc000;
-		font-size: 16px;
-		font-weight: normal;
-		font-style: normal;
-		font-stretch: normal;
-		line-height: 1.5;
-		letter-spacing: normal;
-		color: #383838;
-                padding-left: 120px;
-                line-height: 80px;
-            }
-            .tied {
-                padding-left: 0;
-                text-align: center;
-                padding-top: 120px;
-            }
-        </style>
+        <link rel="stylesheet" href="/static/style.css" >
     </head>
     <body>
-        <div class='container-fluid'>
+        <div class='container-fluid home-page' id=app>
             <div class='main-row row'>
                 <div class='side-box col-sm-4'>
                     <h5>College<span class='blue'>.vote</span></h5>
@@ -132,121 +21,63 @@
                               </div>
 
                               <div class='col input-section'>
-                                  <input placeholder='Enter your work address...' class='address-input-box' type='text' id='uniinput' />
+                                  <input placeholder='Enter your school address...' class='address-input-box' type='text' id='uniinput' />
                               </div>
                           </div>
                       </div>
                   
-                      <div class='result' id='vote-home'>
-                          <h3 class='blue'>Vote at home!</h3>
-                          <p>
-                              Your parent's district is more competitive, so you're more likely to help Democrats there. They need you back home. Vote by mail.
-                          </p>
-                          <div class='home-name district-box'>District Name</div>
-                      </div>
-                      <div class='result' id='vote-school'>
-                          <h3 class='blue'>Vote at school!</h3>
-                          <p>
-                              Your school's district is more competitive, so you're more likely to help Democrats where. Welcome to your new home. Register and vote at school.
-                          </p>
-                          <div class='school-name district-box'>District Name</div>
-                      </div>
-                      <div class='result' id='vote-tossup'>
-                          <h3>Tied!</h3>
-                          <p>
-                              We think both districts are similarly competitive, so pick one and vote!
-                          </p>
-                          <div class='row'>
-                              <div class=col>
-                                <div class='home-name district-box tied'>District Name</div>
-                              </div>
-                              <div class=col>
-                                <div class='school-name district-box tied'>District Name</div>
-                              </div>
-                          </div>
-                      </div>
+                      
                     </div>
                 </form>
 
-                <div id='results'></div>
+                <div id='results' class='col-sm-8'>
+                    <div class='result col-sm-8 offset-sm-2' id='vote-home'>
+                        <h3 class='blue'>Vote at home!</h3>
+                        <p>
+                            Your parent's district is more competitive, so you're more likely to help Democrats there. They need you back home. Vote by mail.
+                        </p>
+                        <div class='home-name district-box'>District Name</div>
+                    </div>
+
+                    <div class='result col-sm-8 offset-sm-2' id='vote-school'>
+                        <h3 class='blue'>Vote at school!</h3>
+                        <p>
+                            Your school's district is more competitive, so you're more likely to help Democrats where. Welcome to your new home. Register and vote at school.
+                        </p>
+                        <div class='school-name district-box'>District Name</div>
+                    </div>
+
+                    <div class='result col-sm-8 offset-sm-2' id='vote-tossup'>
+                        <h3>Tied!</h3>
+                        <p>
+                            We think both districts are similarly competitive, so pick one and vote!
+                        </p>
+                        <div class='row'>
+                            <div class=col>
+                              <div class='home-name district-box tied'>District Name</div>
+                            </div>
+                            <div class=col>
+                              <div class='school-name district-box tied'>District Name</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='col-sm-8 offset-sm-2 make-sure-you-vote'>
+                        <h3 class=blue>Now let's make sure you vote</h3>
+                        <ul class=cta>
+                            <li><a href='https://turbovote.org/'>Register to Vote</a></li>
+                            <li><a href='https://www.vote.org/polling-place-locator/'>Find my polling place</a></li>
+                            <li><a href='https://www.ballotready.org/'>Show me my ballot</a></li>
+                            <li><a href='https://turbovote.org/'>Request mail in ballot</a></li>
+                            <li><a href='https://swingleft.org/take-action'>Volunteer</a></li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
         </div>
 
-        <script type='text/javascript'>
-            var home, uni
-            function initMap() {
-                var options = {
-                    componentRestrictions: {country: "us"}
-                };
-
-                home = new google.maps.places.SearchBox(document.getElementById('homeinput'), options);
-                uni = new google.maps.places.SearchBox(document.getElementById('uniinput'), options);
-
-                google.maps.event.addListener(home, 'places_changed', handleChange);
-                google.maps.event.addListener(uni, 'places_changed', handleChange);
-            }
-
-            function handleChange() {
-                var home_place = home.getPlaces();
-                var uni_place = uni.getPlaces();
-                
-                var results_el = document.getElementById("results");
-                
-                if (home_place && uni_place) {
-                    var home_coords = home_place[0].geometry.location;
-                    var uni_coords = uni_place[0].geometry.location;
-
-                    getPriorities(home_coords, uni_coords, function(response) {
-                        var priorities = JSON.parse(response);
-                        
-                        renderResults(priorities);
-                    });
-                }
-            }
-
-            function getPriorities(home_c, uni_c, cb) {
-                let home_coords = home_c.lat()+','+home_c.lng();
-                let uni_coords = uni_c.lat()+','+uni_c.lng();
-                var xmlHttp = new XMLHttpRequest();
-                xmlHttp.onreadystatechange = function() { 
-                    if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
-                        cb(xmlHttp.responseText);
-                }
-                xmlHttp.open("GET", '/priorities?home='+encodeURIComponent(home_coords)+'&uni='+encodeURIComponent(uni_coords), true);
-                xmlHttp.send();
-            }
-
-              function renderResults(results) {
-                  "use strict";
-
-                  Array.from(document.getElementsByClassName('home-name')).forEach((el) => {
-                    el.innerHTML = results.home.district_name.name;
-                  });
-
-                  Array.from(document.getElementsByClassName('school-name')).forEach((el) => {
-                    el.innerHTML = results.uni.district_name.name;
-                  });
-
-                  if (results.home.priority > results.uni.priority) {
-                      document.getElementById('home-page').style.display = 'none';
-                      document.getElementById('vote-school').style.display = 'none';
-                      document.getElementById('vote-home').style.display = 'block';
-                      document.getElementById('vote-tossup').style.display = 'none';
-                  }
-                  if (results.uni.priority > results.home.priority) {
-                      document.getElementById('home-page').style.display = 'none';
-                      document.getElementById('vote-home').style.display = 'none';
-                      document.getElementById('vote-school').style.display = 'block';
-                      document.getElementById('vote-tossup').style.display = 'none';
-                  }
-                  if (results.uni.priority == results.home.priority) {
-                      document.getElementById('home-page').style.display = 'none';
-                      document.getElementById('vote-home').style.display = 'none';
-                      document.getElementById('vote-school').style.display = 'none';
-                      document.getElementById('vote-tossup').style.display = 'block';
-                  }
-              }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyD9F6qk9NbkzES-gCLs0y1bIicsO3eI9bU&callback=initMap" async defer></script>
+        <script src="/static/script.js" ></script>
+        <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyD9F6qk9NbkzES-gCLs0y1bIicsO3eI9bU&callback=initMap" ></script>
     </body>
 </html>

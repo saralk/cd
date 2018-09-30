@@ -1,0 +1,196 @@
+#main {
+    display: none;
+}
+
+#results {
+    display: none;
+    padding-top: 50px;
+}
+
+.result-page #results {
+    display: block;
+}
+
+.home-page #main {
+    display: block;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.vote-home {
+    display: none;
+}
+
+.result-home #vote-home {
+    display: block;
+}
+
+.vote-school {
+    display: none;
+}
+
+.result-school #vote-school {
+    display: block;
+}
+
+.vote-tossup {
+    display: none;
+}
+
+.result-tossup #vote-tossup {
+    display: block;
+}
+
+#main {
+    padding-top: 50px;
+}
+
+.main-row {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 44px;
+    color: #0084ff;
+}
+
+h2 {
+    font-size: 24px; 
+}
+
+h5 {
+    font-size: 20px;
+    color: #ff5033;
+    margin-top: 16px;
+}
+
+.red {
+    color: #ff5033;
+}
+
+.blue {
+    color: #0884ff;
+}
+
+.lead {
+    text-align: center;
+    font-size: 18pt;
+}
+
+body {
+    color: #383838;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+}
+
+input {
+    width: 100%;
+    font-size: 18pt;
+}
+
+.input-section {
+    margin-bottom: 15px;
+    font-size: 12pt;
+}
+
+.result {
+    display: none;
+}
+
+.side-box {
+    background-color: #eef7ff;
+}
+
+.address-input {
+    margin-top: 20px;
+}
+
+.address-input-box {
+  height: 44px;
+  border-radius: 3px;
+  border: solid 1px #ddd;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #383838; 
+}
+.district-box {
+    border-radius: 3px;
+    box-shadow: 0 6px 16px 0 rgba(12, 0, 51, 0.1);
+    background-color: #ffffff;
+    border: solid 1px #ffc000;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #383838;
+    padding-left: 120px;
+    line-height: 80px;
+}
+.tied.district-box {
+    padding-left: 0;
+    text-align: center;
+    padding-top: 120px;
+    background-position: center top 50px;
+}
+
+.cta {
+    border-radius: 3px;
+    background-color: #eee;
+    box-shadow: 0 2px 8px 0 rgba(12, 0, 51, 0.1);
+    list-style: none;
+    padding-left: 0px;
+    margin-top 24px;
+}
+
+.cta li {
+    line-height: 44px;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+    padding-left: 16px;
+}
+
+.cta li a {
+    display: block;
+    width: inherit;
+    height: inherit;
+    color: #0084ff;
+}
+
+.cta li:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.cta li:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.make-sure-you-vote {
+    padding-top: 16px;
+}
+
+.district-box {
+    background-image: url(/static/medal-medium@2x.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: left 35px center;
+}
