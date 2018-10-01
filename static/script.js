@@ -12,6 +12,15 @@ function initMap() {
 
     google.maps.event.addListener(home, 'places_changed', handleChange);
     google.maps.event.addListener(uni, 'places_changed', handleChange);
+
+    document.getElementById('go-back').addEventListener('click', function(e) {
+        const page = document.getElementById('app');
+        ['result-page', 'result-home', 'result-school', 'result-tossup'].forEach((className) => {
+            page.classList.remove(className);
+        });
+        page.classList.add('home-page');
+        return false;
+    });
 }
 
 function handleChange() {
@@ -29,6 +38,9 @@ function handleChange() {
 
             renderResults(priorities);
         });
+
+        document.getElementById('homeinput').value = '';  
+        document.getElementById('uniinput').value = '';  
     }
 }
 

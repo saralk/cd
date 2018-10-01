@@ -15,6 +15,21 @@
     display: block;
 }
 
+.address-input-box {
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: left 8px center;
+    padding-left: 40px; 
+}
+
+#homeinput {
+    background-image: url(/static/house-01@2x.png);
+}
+
+#uniinput {
+    background-image: url(/static/school-01@2x.png);
+}
+
 .container-fluid {
     height: 100%;
 }
@@ -194,3 +209,11 @@ input {
     background-repeat: no-repeat;
     background-position: left 35px center;
 }
+
+.go-back {
+    color: #383838;
+}  
+
+.go-back:hover {
+    color: #383838;
+}  
