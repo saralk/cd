@@ -126,6 +126,10 @@ input {
 
 .side-box {
     background-color: #eef7ff;
+    background-image: url(/static/group-4@2x.png);
+    background-size: 198px 190px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .address-input {
