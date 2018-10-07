@@ -163,11 +163,16 @@ input {
     padding-left: 120px;
     line-height: 80px;
 }
+
 .tied.district-box {
     padding-left: 0;
     text-align: center;
     padding-top: 120px;
     background-position: center top 50px;
+    line-height: 1.5;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 25px;
 }
 
 .cta {

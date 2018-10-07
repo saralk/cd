@@ -1,4 +1,4 @@
-var home, uni
+var home, uni, home_set, uni_set;
 
 function initMap() {
     var options = {
@@ -10,8 +10,8 @@ function initMap() {
     home = new google.maps.places.SearchBox(document.getElementById('homeinput'), options);
     uni = new google.maps.places.SearchBox(document.getElementById('uniinput'), options);
 
-    google.maps.event.addListener(home, 'places_changed', handleChange);
-    google.maps.event.addListener(uni, 'places_changed', handleChange);
+    google.maps.event.addListener(home, 'places_changed', _.partial(handleChange, 'home'));
+    google.maps.event.addListener(uni, 'places_changed', _.partial(handleChange, 'uni'));
 
     document.getElementById('go-back').addEventListener('click', function(e) {
         const page = document.getElementById('app');
@@ -19,17 +19,30 @@ function initMap() {
             page.classList.remove(className);
         });
         page.classList.add('home-page');
+
+        document.getElementById('homeinput').value = '';
+        document.getElementById('uniinput').value = '';
+        home_set = false;
+        uni_set = false;
+
         return false;
     });
 }
 
-function handleChange() {
+function handleChange(form) {
+    console.log(form);
+    if (form == 'home') {
+        home_set = true; 
+    } else if (form == 'uni') {
+        uni_set = true;
+    }
+
     var home_place = home.getPlaces();
     var uni_place = uni.getPlaces();
 
     var results_el = document.getElementById("results");
 
-    if (home_place && uni_place) {
+    if (home_set && uni_set && home_place && uni_place) {
         var home_coords = home_place[0].geometry.location;
         var uni_coords = uni_place[0].geometry.location;
 
@@ -37,10 +50,14 @@ function handleChange() {
             var priorities = JSON.parse(response);
 
             renderResults(priorities);
+
+            document.getElementById('homeinput').value = '';
+            document.getElementById('uniinput').value = '';
+            home_set = false;
+            uni_set = false;
+
         });
 
-        document.getElementById('homeinput').value = '';  
-        document.getElementById('uniinput').value = '';  
     }
 }
 
