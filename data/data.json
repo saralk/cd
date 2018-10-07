@@ -2,8 +2,8 @@
   {
     "": "",
     "District": "AK-AL",
-    "Category": "Solid Seat",
-    "Priority Number": 0
+    "Category": "Likely R",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -218,7 +218,7 @@
   {
     "": "",
     "District": "CA-16",
-    "Category": "Solid Seat",
+    "Category": "Likely Dem",
     "Priority Number": 0
   },
   {
@@ -392,8 +392,8 @@
   {
     "": "",
     "District": "CA-45",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -422,8 +422,8 @@
   {
     "": "",
     "District": "CA-50",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -458,8 +458,8 @@
   {
     "": "",
     "District": "CO-03",
-    "Category": "Solid Seat",
-    "Priority Number": 0
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -476,8 +476,8 @@
   {
     "": "",
     "District": "CO-06",
-    "Category": "Toss Up",
-    "Priority Number": 3
+    "Category": "Lean Dem",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -554,8 +554,8 @@
   {
     "": "",
     "District": "FL-06",
-    "Category": "Solid Seat",
-    "Priority Number": 0
+    "Category": "Likely R",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -614,8 +614,8 @@
   {
     "": "",
     "District": "FL-16",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -626,8 +626,8 @@
   {
     "": "",
     "District": "FL-18",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Likely R",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -674,14 +674,14 @@
   {
     "": "",
     "District": "FL-26",
-    "Category": "Toss Up",
-    "Priority Number": 3
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
     "District": "FL-27",
-    "Category": "Solid Seat",
-    "Priority Number": 0
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -722,8 +722,8 @@
   {
     "": "",
     "District": "GA-07",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -782,8 +782,8 @@
   {
     "": "",
     "District": "IA-01",
-    "Category": "Toss Up",
-    "Priority Number": 3
+    "Category": "Lean Dem",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -794,14 +794,14 @@
   {
     "": "",
     "District": "IA-03",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
     "District": "IA-04",
-    "Category": "Solid Seat",
-    "Priority Number": 0
+    "Category": "Likely R",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -890,8 +890,8 @@
   {
     "": "",
     "District": "IL-13",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -986,14 +986,14 @@
   {
     "": "",
     "District": "KS-02",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
     "District": "KS-03",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -1034,8 +1034,8 @@
   {
     "": "",
     "District": "KY-06",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -1184,8 +1184,8 @@
   {
     "": "",
     "District": "ME-02",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -1232,8 +1232,8 @@
   {
     "": "",
     "District": "MI-08",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -1280,14 +1280,14 @@
   {
     "": "",
     "District": "MN-02",
-    "Category": "Toss Up",
-    "Priority Number": 3
+    "Category": "Lean Dem",
+    "Priority Number": 1
   },
   {
     "": "",
     "District": "MN-03",
-    "Category": "Toss Up",
-    "Priority Number": 3
+    "Category": "Lean Dem",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -1328,8 +1328,8 @@
   {
     "": "",
     "District": "MO-02",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -1394,8 +1394,8 @@
   {
     "": "",
     "District": "MT-AL",
-    "Category": "Solid Seat",
-    "Priority Number": 0
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -1448,8 +1448,8 @@
   {
     "": "",
     "District": "NC-09",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -1472,8 +1472,8 @@
   {
     "": "",
     "District": "NC-13",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -1502,7 +1502,7 @@
   {
     "": "",
     "District": "NH-01",
-    "Category": "Solid Seat",
+    "Category": "Likely Dem",
     "Priority Number": 0
   },
   {
@@ -1521,13 +1521,13 @@
     "": "",
     "District": "NJ-02",
     "Category": "Likely Dem",
-    "Priority Number": 1
+    "Priority Number": 0
   },
   {
     "": "",
     "District": "NJ-03",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -1592,8 +1592,8 @@
   {
     "": "",
     "District": "NM-02",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -1634,8 +1634,8 @@
   {
     "": "",
     "District": "NY-02",
-    "Category": "Solid Seat",
-    "Priority Number": 0
+    "Category": "Likely R",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -1688,8 +1688,8 @@
   {
     "": "",
     "District": "NY-11",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Likely R",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -1784,8 +1784,8 @@
   {
     "": "",
     "District": "NY-27",
-    "Category": "Solid Seat",
-    "Priority Number": 0
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -1856,8 +1856,8 @@
   {
     "": "",
     "District": "OH-12",
-    "Category": "Toss Up",
-    "Priority Number": 3
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -1874,8 +1874,8 @@
   {
     "": "",
     "District": "OH-15",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Solid Seat",
+    "Priority Number": 0
   },
   {
     "": "",
@@ -1946,8 +1946,8 @@
   {
     "": "",
     "District": "PA-01",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -1965,13 +1965,13 @@
     "": "",
     "District": "PA-04",
     "Category": "Likely Dem",
-    "Priority Number": 1
+    "Priority Number": 0
   },
   {
     "": "",
     "District": "PA-05",
     "Category": "Likely Dem",
-    "Priority Number": 1
+    "Priority Number": 0
   },
   {
     "": "",
@@ -2000,8 +2000,8 @@
   {
     "": "",
     "District": "PA-10",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -2036,14 +2036,14 @@
   {
     "": "",
     "District": "PA-16",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
     "District": "PA-17",
-    "Category": "Toss Up",
-    "Priority Number": 3
+    "Category": "Lean Dem",
+    "Priority Number": 1
   },
   {
     "": "",
@@ -2066,8 +2066,8 @@
   {
     "": "",
     "District": "SC-01",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
@@ -2348,14 +2348,14 @@
   {
     "": "",
     "District": "TX-31",
-    "Category": "Solid Seat",
-    "Priority Number": 0
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
     "District": "TX-32",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -2414,8 +2414,8 @@
   {
     "": "",
     "District": "VA-02",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -2444,8 +2444,8 @@
   {
     "": "",
     "District": "VA-07",
-    "Category": "Lean R",
-    "Priority Number": 2
+    "Category": "Toss Up",
+    "Priority Number": 3
   },
   {
     "": "",
@@ -2492,8 +2492,8 @@
   {
     "": "",
     "District": "WA-03",
-    "Category": "Likely R",
-    "Priority Number": 1
+    "Category": "Lean R",
+    "Priority Number": 2
   },
   {
     "": "",
