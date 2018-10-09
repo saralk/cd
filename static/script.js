@@ -30,7 +30,6 @@ function initMap() {
 }
 
 function handleChange(form) {
-    console.log(form);
     if (form == 'home') {
         home_set = true; 
     } else if (form == 'uni') {
@@ -76,13 +75,17 @@ function getPriorities(home_c, uni_c, cb) {
 function renderResults(results) {
     "use strict";
 
-    Array.from(document.getElementsByClassName('home-name')).forEach((el) => {
-        el.innerHTML = results.home.district_name.name;
-    });
+    if (results.home.district_name) {
+        Array.from(document.getElementsByClassName('home-name')).forEach((el) => {
+            el.innerHTML = results.home.district_name.name;
+        });
+    }
 
-    Array.from(document.getElementsByClassName('school-name')).forEach((el) => {
-        el.innerHTML = results.uni.district_name.name;
-    });
+    if (results.uni.district_name) {
+        Array.from(document.getElementsByClassName('school-name')).forEach((el) => {
+            el.innerHTML = results.uni.district_name.name;
+        });
+    }
 
     const page = document.getElementById('app');
 

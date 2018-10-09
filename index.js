@@ -56,6 +56,7 @@ async function getPriorityForCoordinates(lat, lon) {
     return rp(url).then((response) => {
         return new Promise((resolve, reject) => {
             let r = JSON.parse(response);
+            let resolved = false;
             Object.keys(r.divisions).forEach((key) => {
                 let m = key.match(/cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{1,2})/);
                 if (m) {
@@ -64,6 +65,11 @@ async function getPriorityForCoordinates(lat, lon) {
                     resolve(p);
                 }
             });
+            if (!resolved) {
+                resolve({
+                    priority: -1 
+                });
+            }
         });
     });
 }

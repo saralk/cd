@@ -126,10 +126,23 @@ input {
 
 .side-box {
     background-color: #eef7ff;
-    background-image: url(/static/group-4@2x.png);
-    background-size: 198px 190px;
-    background-position: center center;
     background-repeat: no-repeat;
+    background-image: url(/static/group-7@2x.png);
+    background-size: 32px 31px;
+    background-position: left 15px center;
+}
+
+.side-box h5 {
+    padding-left: 42px;
+    line-height: 90px;
+}
+
+@media (min-width: 768px) { 
+    .side-box {
+        background-image: url(/static/group-4@2x.png);
+        background-size: 198px 190px;
+        background-position: center center;
+    }
 }
 
 .address-input {
