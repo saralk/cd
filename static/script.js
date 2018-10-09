@@ -13,6 +13,7 @@ function initMap() {
     google.maps.event.addListener(home, 'places_changed', _.partial(handleChange, 'home'));
     google.maps.event.addListener(uni, 'places_changed', _.partial(handleChange, 'uni'));
 
+    document.getElementById('search-button').addEventListener('click', onButtonClick);
     document.getElementById('go-back').addEventListener('click', function(e) {
         const page = document.getElementById('app');
         ['result-page', 'result-home', 'result-school', 'result-tossup'].forEach((className) => {
@@ -24,6 +25,8 @@ function initMap() {
         document.getElementById('uniinput').value = '';
         home_set = false;
         uni_set = false;
+        b.setAttribute('disabled', false);
+        b.innerHTML = 'SHOW ME WHERE TO VOTE'
 
         return false;
     });
@@ -35,6 +38,12 @@ function handleChange(form) {
     } else if (form == 'uni') {
         uni_set = true;
     }
+}
+
+function onButtonClick() {
+    var b = document.getElementById('search-button')
+    b.setAttribute('disabled', true);
+    b.innerHTML = 'Searching...'
 
     var home_place = home.getPlaces();
     var uni_place = uni.getPlaces();
