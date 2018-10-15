@@ -6,7 +6,7 @@
         <link rel="icon" type="image/png" href="/static/group-7.png" />
         <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>College.vote - save America from Trump.</title>
+        <title>College.vote - Should I vote at school or back home?</title>
     </head>
     <body>
         <div class='container-fluid home-page' id=app>
@@ -17,8 +17,8 @@
                 <form id='main' class='col-sm-8'>
                     <div class='col-sm-8 offset-sm-2'>
                       <div id='home-page'>
-                          <h1>College voters will save America from <span class='red'>Trump.</span></h1>
-                          <h2>College students can vote at home or at school. Which one is the best for Democrats? <span class='blue'>Enter your home and school address to find out</span></h2>
+                          <h1>Should I vote at school or back home?</h1>
+                          <h2>College students can vote at school or in their hometown. Use this website to figure out where your vote has more impact. <span class='blue'>Enter your home and school address to find out</span></h2>
                           <div class='row address-input'>
                               <div class='col input-section'>
                                   <input placeholder='Enter your home address...' class='address-input-box' type='text' id='homeinput' />
@@ -45,25 +45,35 @@
                     </div>
                     <div class='result col-sm-8 offset-sm-2' id='vote-home'>
                         <h3 class='blue'>Vote at home!</h3>
-                        <p>
-                            Your parent's district is more competitive, so you're more likely to help Democrats there. They need you back home. Vote by mail.
-                        </p>
+                        <p>Your hometown congressional district is more competitive, so your vote has more impact there. They need you back home. Vote by mail!</p>
                         <div class='home-name district-box'>District Name</div>
+                    </div>
+                    <div class='result col-sm-8 offset-sm-2' id='vote-home'>
+                        <h3 class=blue>Now let's make sure you vote</h3>
+                        <ul class=cta>
+                            <li><a href='https://turbovote.org/'>Register to Vote</a></li>
+                            <li><a href='https://www.ballotready.org/'>Show me my ballot</a></li>
+                            <li><a href='https://turbovote.org/'>Request mail in ballot</a></li>
+                        </ul>
                     </div>
 
                     <div class='result col-sm-8 offset-sm-2' id='vote-school'>
                         <h3 class='blue'>Vote at school!</h3>
-                        <p>
-                            Your school's district is more competitive, so you're more likely to help Democrats where. Welcome to your new home. Register and vote at school.
-                        </p>
+                        <p>Your school's congressional district is more competitive, so your vote has more impact there. Welcome to your new home. Register and vote at school!</p>
                         <div class='school-name district-box'>District Name</div>
+                    </div>
+                    <div class='result col-sm-8 offset-sm-2' id='vote-home'>
+                        <h3 class=blue>Now let's make sure you vote</h3>
+                        <ul class=cta>
+                            <li><a href='https://turbovote.org/'>Register to Vote</a></li>
+                            <li><a href='https://www.vote.org/polling-place-locator/'>Find my polling place</a></li>
+                            <li><a href='https://www.ballotready.org/'>Show me my ballot</a></li>
+                        </ul>
                     </div>
 
                     <div class='result col-sm-8 offset-sm-2' id='vote-tossup'>
                         <h3>Tied!</h3>
-                        <p>
-                            We think both districts are similarly competitive, so pick one and vote!
-                        </p>
+                        <p>We think both districts are similarly competitive, so pick one and vote!</p>
                         <div class='row'>
                             <div class=col>
                               <div class='home-name district-box tied'>District Name</div>
@@ -73,16 +83,15 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class='col-sm-8 offset-sm-2 make-sure-you-vote'>
+                    <div class='result col-sm-8 offset-sm-2' id='vote-home'>
                         <h3 class=blue>Now let's make sure you vote</h3>
                         <ul class=cta>
                             <li><a href='https://turbovote.org/'>Register to Vote</a></li>
                             <li><a href='https://www.vote.org/polling-place-locator/'>Find my polling place</a></li>
                             <li><a href='https://www.ballotready.org/'>Show me my ballot</a></li>
                             <li><a href='https://turbovote.org/'>Request mail in ballot</a></li>
-                            <li><a href='https://swingleft.org/take-action'>Volunteer</a></li>
                         </ul>
+
                     </div>
 
                 </div>
