@@ -15,26 +15,30 @@ function initMap() {
 
     document.getElementById('search-button').addEventListener('click', onButtonClick);
     document.getElementById('go-back').addEventListener('click', function(e) {
-        const page = document.getElementById('app');
-        ['result-page', 'result-home', 'result-school', 'result-tossup'].forEach((className) => {
-            page.classList.remove(className);
-        });
-        page.classList.add('home-page');
-
-        document.getElementById('homeinput').value = '';
-        document.getElementById('uniinput').value = '';
-        home_set = false;
-        uni_set = false;
-        b.setAttribute('disabled', false);
-        b.innerHTML = 'SHOW ME WHERE TO VOTE'
-
+        resetSearch();
         return false;
     });
 }
 
+function resetSearch() {
+    const search = document.getElementById('search-button');
+    const page = document.getElementById('app');
+    ['result-page', 'result-home', 'result-school', 'result-tossup'].forEach((className) => {
+        page.classList.remove(className);
+    });
+    page.classList.add('home-page');
+
+    document.getElementById('uniinput').value = '';
+    document.getElementById('homeinput').value = '';
+    home_set = false;
+    uni_set = false;
+    search.removeAttribute('disabled');
+    search.innerHTML = 'SHOW ME WHERE TO VOTE'
+}
+
 function handleChange(form) {
     if (form == 'home') {
-        home_set = true; 
+        home_set = true;
     } else if (form == 'uni') {
         uni_set = true;
     }
