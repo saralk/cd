@@ -51,8 +51,9 @@ function addLeadingZero(num) {
   return num;
 }
 
-async function getPriorityForCoordinates(lat, lon) {
-    let url = `https://www.googleapis.com/civicinfo/v2/representatives?key=${API_KEY}&address=${lat},${lon}&includeOffices=false`;
+async function getPriorityForAddress(address) {
+    let url = `https://www.googleapis.com/civicinfo/v2/representatives?key=${API_KEY}&address=${address}&includeOffices=false`;
+    console.log(url);
     return rp(url).then((response) => {
         return new Promise((resolve, reject) => {
             let r = JSON.parse(response);
@@ -75,8 +76,9 @@ async function getPriorityForCoordinates(lat, lon) {
 }
 
 app.get('/priorities', async (req, res) => {
-    let home = await getPriorityForCoordinates(...req.query.home.split(','));
-    let uni = await getPriorityForCoordinates(...req.query.uni.split(','));
+    console.log(req.query.h, req.query.u);
+    let home = await getPriorityForAddress(req.query.h);
+    let uni = await getPriorityForAddress(req.query.u);
 
     res.json({
         home: home,

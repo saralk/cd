@@ -57,8 +57,10 @@ function onButtonClick() {
     if (home_set && uni_set && home_place && uni_place) {
         var home_coords = home_place[0].geometry.location;
         var uni_coords = uni_place[0].geometry.location;
+        var home_addr = home_place[0].formatted_address;
+        var uni_addr = uni_place[0].formatted_address;
 
-        getPriorities(home_coords, uni_coords, function(response) {
+        getPriorities(home_coords, uni_coords, home_addr, uni_addr, function(response) {
             var priorities = JSON.parse(response);
 
             renderResults(priorities);
@@ -73,7 +75,7 @@ function onButtonClick() {
     }
 }
 
-function getPriorities(home_c, uni_c, cb) {
+function getPriorities(home_c, uni_c, home_a, uni_a, cb) {
     let home_coords = home_c.lat() + ',' + home_c.lng();
     let uni_coords = uni_c.lat() + ',' + uni_c.lng();
     var xmlHttp = new XMLHttpRequest();
@@ -81,7 +83,14 @@ function getPriorities(home_c, uni_c, cb) {
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
             cb(xmlHttp.responseText);
     }
-    xmlHttp.open("GET", '/priorities?home=' + encodeURIComponent(home_coords) + '&uni=' + encodeURIComponent(uni_coords), true);
+    xmlHttp.open("GET", '/priorities?home=' 
+                 + encodeURIComponent(home_coords) 
+                 + '&uni=' 
+                 + encodeURIComponent(uni_coords) 
+                 + '&h=' 
+                 + encodeURIComponent(home_a)
+                 + '&u='
+                 + encodeURIComponent(uni_a), true);
     xmlHttp.send();
 }
 
