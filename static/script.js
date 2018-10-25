@@ -45,6 +45,9 @@ function handleChange(form) {
 }
 
 function onButtonClick() {
+    dataLayer.push({
+        'event': 'get_results'
+    });
     var b = document.getElementById('search-button')
     b.setAttribute('disabled', true);
     b.innerHTML = 'Searching...'
