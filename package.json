@@ -12,6 +12,7 @@
   "dependencies": {
     "env2": "^2.2.2",
     "express": "^4.16.3",
+    "express-http-to-https": "^1.1.4",
     "express-winston": "^3.0.0",
     "jsonwebtoken": "^8.3.0",
     "mapkit-token": "^1.0.0",

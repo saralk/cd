@@ -10,6 +10,7 @@ const rp = require('request-promise-native');
 const winston = require('winston');
 const expressWinston = require('express-winston');
 const generate = require('mapkit-token')
+const redirectToHTTPS = require('express-http-to-https').redirectToHTTPS
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -25,6 +26,8 @@ app.use(expressWinston.logger({
     msg: "HTTP {{req.method}} {{req.url}}",
     meta: false
 }));
+
+app.use(redirectToHTTPS([/localhost:(\d{4})/], [], 301));
 
 if (!API_KEY) {
     throw new Error('No API_KEY environment variable set');
