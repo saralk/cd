@@ -53,7 +53,13 @@ function addLeadingZero(num) {
 
 function convertSpecialCase(name) {
     const data = {
-        'ak-01': 'ak-al'
+        'ak-01': 'ak-al',
+        'de-01': 'de-al',
+        'mt-01': 'mt-al',
+        'nd-01': 'nd-al',
+        'sd-01': 'sd-al',
+        'vt-01': 'vt-al',
+        'wy-01': 'wy-al'
     }
 
     if (name in data) {
