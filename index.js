@@ -38,17 +38,29 @@ const priorities = JSON.parse(fs.readFileSync('data/data.json')).reduce((map, ob
     map[obj['District'].toLowerCase()] = {
         category: obj['Category'],
         priority: obj['Priority Number']
-   }
+    }
 
     return map;
 }, {});
 
 function addLeadingZero(num) {
-  num = num.toString();
-  if (num.length === 1) {
-    return '0' + num; 
-  }
-  return num;
+    num = num.toString();
+    if (num.length === 1) {
+        return '0' + num;
+    }
+    return num;
+}
+
+function convertSpecialCase(name) {
+    const data = {
+        'ak-01': 'ak-al'
+    }
+
+    if (name in data) {
+        return data[name];
+    }
+
+    return name;
 }
 
 async function getPriorityForAddress(address) {
@@ -59,23 +71,38 @@ async function getPriorityForAddress(address) {
             let r = JSON.parse(response);
             let resolved = false;
             Object.keys(r.divisions).forEach((key) => {
+                let division = r.divisions[key];
                 let m = key.match(/cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{1,2})/);
+
+                if (!m) {
+                    if (division.alsoKnownAs && division.alsoKnownAs.length > 0) {
+                        m = division.alsoKnownAs.find((d) => {
+                            return d.match(/cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{1,2})/);
+                        });
+
+                        if (m) {
+                            m = m.match(/cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{1,2})/);
+                        }
+                    }
+                }
+
                 if (m) {
-                    let p = priorities[m[1] + '-' + addLeadingZero(m[2])];
+                    let district_name = convertSpecialCase(m[1] + '-' + addLeadingZero(m[2])); 
+                    let p = priorities[district_name];
                     p['district_name'] = r.divisions[key];
                     resolve(p);
                 }
             });
             if (!resolved) {
                 resolve({
-                    priority: -1 
+                    priority: -1
                 });
             }
         });
     });
 }
 
-app.get('/priorities', async (req, res) => {
+app.get('/priorities', async(req, res) => {
     console.log(req.query.h, req.query.u);
     let home = await getPriorityForAddress(req.query.h);
     let uni = await getPriorityForAddress(req.query.u);
