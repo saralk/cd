@@ -127,11 +127,6 @@ app.get('/priorities', async(req, res) => {
     });
 });
 
-app.get('/jwt', (req, res) => {
-    const token = generate(AUTH_KEY, 'maps.vote.college', 'BC43SS2RL7');
-    console.log(token);
-});
-
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/views/index.html');
 });
