@@ -36,7 +36,7 @@ if (!API_KEY) {
 app.listen(port);
 console.log(`Listening on port ${port}`);
 
-//build the data
+// build the data
 const priorities = JSON.parse(fs.readFileSync('data/data.json')).reduce((map, obj) => {
     map[obj['District'].toLowerCase()] = {
         category: obj['Category'],
@@ -55,6 +55,10 @@ function addLeadingZero(num) {
 }
 
 function convertSpecialCase(name) {
+    // states with only one congressional district are stored in our
+    // database in a slightly different format to what we get from
+    // google's civic api.
+    // this maps the exceptions
     const data = {
         'ak-01': 'ak-al',
         'de-01': 'de-al',
@@ -73,25 +77,25 @@ function convertSpecialCase(name) {
 }
 
 async function getPriorityForAddress(address) {
+    const regex = /cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{1,2})/;
     let url = `https://www.googleapis.com/civicinfo/v2/representatives?key=${API_KEY}&address=${address}&includeOffices=false`;
-    console.log(url);
     return rp(url).then((response) => {
         return new Promise((resolve, reject) => {
             let r = JSON.parse(response);
             let resolved = false;
             Object.keys(r.divisions).forEach((key) => {
                 let division = r.divisions[key];
-                let m = key.match(/cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{1,2})/);
+                let m = key.match(regex);
 
-                if (!m) {
-                    if (division.alsoKnownAs && division.alsoKnownAs.length > 0) {
-                        m = division.alsoKnownAs.find((d) => {
-                            return d.match(/cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{1,2})/);
-                        });
+                // in states with only one congressional district (like Alaska)
+                // the division is stored in the "alsoKnownAs" array
+                if (!m && division.alsoKnownAs && division.alsoKnownAs.length > 0) {
+                    alias = division.alsoKnownAs.find((d) => {
+                        return d.match(regex);
+                    });
 
-                        if (m) {
-                            m = m.match(/cd-division\/country:us\/state:([a-z]{2})\/cd:([0-9]{1,2})/);
-                        }
+                    if (alias) {
+                        m = alias.match(regex);
                     }
                 }
 
@@ -99,6 +103,7 @@ async function getPriorityForAddress(address) {
                     let district_name = convertSpecialCase(m[1] + '-' + addLeadingZero(m[2])); 
                     let p = priorities[district_name];
                     p['district_name'] = r.divisions[key];
+                    resolved = true;
                     resolve(p);
                 }
             });
